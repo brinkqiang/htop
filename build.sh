@@ -12,7 +12,7 @@
 #
 
 libtoolize && aclocal && autoheader && autoconf && automake --add-missing
-source configure && make && make install
+sudo source configure && make && make install
 
 # popd
 
